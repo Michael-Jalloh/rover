@@ -1,0 +1,24 @@
+[0.802s] Invoking command in '/home/mchael/ROS/ros2_workspace/src/rover': PYTHONPATH=/home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/mchael/ROS/ros2_workspace/src/rover/build/rover build --build-base /home/mchael/ROS/ros2_workspace/src/rover/build/rover/build install --prefix /home/mchael/ROS/ros2_workspace/src/rover/install/rover --record /home/mchael/ROS/ros2_workspace/src/rover/build/rover/install.log --single-version-externally-managed
+[1.112s] running egg_info
+[1.121s] writing /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/PKG-INFO
+[1.121s] writing dependency_links to /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/dependency_links.txt
+[1.122s] writing entry points to /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/entry_points.txt
+[1.122s] writing requirements to /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/requires.txt
+[1.122s] writing top-level names to /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/top_level.txt
+[1.173s] reading manifest file '/home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/SOURCES.txt'
+[1.175s] writing manifest file '/home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info/SOURCES.txt'
+[1.175s] running build
+[1.176s] running build_py
+[1.176s] copying rover/driver.py -> /home/mchael/ROS/ros2_workspace/src/rover/build/rover/build/lib/rover
+[1.176s] running install
+[1.177s] running install_lib
+[1.178s] copying /home/mchael/ROS/ros2_workspace/src/rover/build/rover/build/lib/rover/driver.py -> /home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages/rover
+[1.179s] byte-compiling /home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages/rover/driver.py to driver.cpython-36.pyc
+[1.180s] running install_data
+[1.181s] running install_egg_info
+[1.184s] removing '/home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages/rover-0.0.0-py3.6.egg-info' (and everything under it)
+[1.184s] Copying /home/mchael/ROS/ros2_workspace/src/rover/build/rover/rover.egg-info to /home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages/rover-0.0.0-py3.6.egg-info
+[1.186s] running install_scripts
+[1.209s] Installing controller script to /home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/rover
+[1.209s] writing list of installed files to '/home/mchael/ROS/ros2_workspace/src/rover/build/rover/install.log'
+[1.247s] Invoked command in '/home/mchael/ROS/ros2_workspace/src/rover' returned '0': PYTHONPATH=/home/mchael/ROS/ros2_workspace/src/rover/install/rover/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/mchael/ROS/ros2_workspace/src/rover/build/rover build --build-base /home/mchael/ROS/ros2_workspace/src/rover/build/rover/build install --prefix /home/mchael/ROS/ros2_workspace/src/rover/install/rover --record /home/mchael/ROS/ros2_workspace/src/rover/build/rover/install.log --single-version-externally-managed
