@@ -14,6 +14,12 @@ def generate_launch_description():
             parameters=[os.path.join(shr, "config.yml")]
         ),
         Node(
+            package="joy",
+            node_executable="joy_node",
+            #parameters=["./config.yml"]
+            #parameters=[os.path.join(shr, "config.yml")]
+        ),
+        Node(
             package="rover",
             node_executable="controller",
             #parameters=["./config.yml"]

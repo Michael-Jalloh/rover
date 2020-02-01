@@ -24,6 +24,8 @@ class JoyStick(object):
             self.update(msg)
 
     def update(self, msg):
+        if(len(msg.buttons) < 1):
+            return 
         self.cross = msg.buttons[0]
         self.circle = msg.buttons[1]
         self.triangle = msg.buttons[2]
