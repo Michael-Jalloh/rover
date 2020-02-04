@@ -10,9 +10,10 @@
   <!--buildtool_depend>ament_python</buildtool_depend> -->
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>python-serial</exec_depend>
   <!--<exec_depend>joy</exec_depend> -->
   <depend>joy</depend>
-  <!--<depend>python3-serial</depend> -->
+  
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
