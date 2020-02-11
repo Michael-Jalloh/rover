@@ -7,11 +7,9 @@
   <maintainer email="michaeljalloh19@gmail.com">mchael</maintainer>
   <license>TODO: License declaration</license>
 
-  <!--buildtool_depend>ament_python</buildtool_depend> -->
+  
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
-  <exec_depend>python-serial</exec_depend>
-  <!--<exec_depend>joy</exec_depend> -->
   <depend>joy</depend>
   
 

@@ -21,6 +21,8 @@ class Controller(Node):
         rmotor = Motor("right")
 
         d = findArduinoPort()
+        if d == None:
+            exit()
         py = Py(d)
         self.rover = Driver_2M(lmotor, rmotor,py)
 
